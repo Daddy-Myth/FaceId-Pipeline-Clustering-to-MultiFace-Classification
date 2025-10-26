@@ -1,0 +1,23 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Gradio session cache
+.gradio/
+
+# Local notes or drafts
+project str.txt
+
+# Image files (exclude all images but keep folder structure)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webp
+
+# Temporary files
+*.log
+*.tmp
+
+# Failed notebooks
+notebooks/FAILED_01_data_prep_clustering.ipynb

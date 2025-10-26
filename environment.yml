@@ -1,0 +1,23 @@
+name: fc
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pillow
+  - ipykernel
+  - jupyterlab
+  - fastai
+  - pytorch
+  - torchvision
+  - torchaudio
+  - facenet-pytorch
+  - pip:
+      - gradio
+      - opencv-python
+      - seaborn
